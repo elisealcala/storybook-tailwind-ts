@@ -24,7 +24,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "build:tailwind": "postcss src/scss/base.scss -o src/scss/tailwind.scss"
+    "build:tailwind": "postcss src/scss/base.scss -o src/scss/tailwind.scss",
+    "storybook": "start-storybook -p 5000"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -40,5 +41,16 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^5.3.18",
+    "@storybook/addon-info": "^5.3.18",
+    "@storybook/addon-knobs": "^5.3.18",
+    "@storybook/addon-notes": "^5.3.18",
+    "@storybook/addons": "^5.3.18",
+    "@storybook/preset-create-react-app": "^2.1.1",
+    "@storybook/react": "^5.3.18",
+    "babel-loader": "^8.1.0",
+    "react-docgen-typescript-loader": "^3.7.2"
   }
 }
